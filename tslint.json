@@ -1,0 +1,12 @@
+{
+    /*
+    "defaultSeverity": "error",
+    "extends": "tslint-config-airbnb",
+    "extends.bak": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {},
+    "rulesDirectory": []
+    */
+}

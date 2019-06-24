@@ -1,0 +1,39 @@
+{
+  "name": "visual-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "rm -rf ./dist/ && webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "2.1.1",
+    "file-loader": "4.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "4.12.0",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "ts-loader": "6.0.0",
+    "tslint": "5.17.0",
+    "tslint-config-airbnb": "5.11.1",
+    "typescript": "3.5.1",
+    "uglifyjs-webpack-plugin": "2.1.3",
+    "webpack": "4.32.2",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.5.1"
+  },
+  "dependencies": {
+    "@types/react": "16.8.19",
+    "@types/react-dom": "16.8.4",
+    "mobx": "5.9.4",
+    "mobx-react": "6.0.2",
+    "mxgraph": "3.9.12",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "storm-react-diagrams": "5.2.1"
+  }
+}
